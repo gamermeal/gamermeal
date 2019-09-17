@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Gamer Meal</title>
+
+		<script type="text/javascript" src="js/script.js"></script>
+
+<style>
+	h1 {
+   font-size: 300%; //makes font bigger on 50% 
+}
+
+@font-face {
+   font-family: Font;
+   src: url(1.ttf);
+}
+
+* {
+   font-family: Font;
+}
+button{
+	background-color: red;
+	border: 0;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}
+.button2 {background-color: red;} 
+         {padding: 5px 10px;} /* Blue */
+.button3 {background-color: red;} 
+         {padding: 10px 2px;} /* Blue */
+button:hover{
+	background-color: black;
+	color: grey;
+	transition-duration: 0.5s;
+}
+.mainWindow{
+	padding: 32px;
+	border: 2px solid grey;
+	border-radius: 4px;
+	margin: 0 auto;
+	text-align: center;
+	width: 40%;
+	height: 80vh;
+	overflow: auto;
+}
+</style>
+
+
+
+</head>
+
+<link rel="icon" href="icon.ico">
+
+<body>
+	<center>
+		<br><br>
+		<img height="200" src="logo.png">
+
+		<br><br>
+		<h4 style="color: #A1A1A1">Energy To The MAX</h4>
+		<br><h2 style="color: #282828">Playing video games for awhile, need a tasty snack, or a quick bite <br> gamer meal is the product for you with energy to extend playtime.</h2>
+
+	</center>
+
+	</button>
+<br><br><br>	
+<div class="mainWindow">
+<center>
+		<h2><strong>BUY NOW</h2>
+		<div id="mainWindow">
+		</br>
+		<br>
+		<img src="co6.png" height="300">
+		<button onclick="buyItem('Case Of 6', 22.00)">Case Of 6 <br>$22</button>
+		
+	
+		<br><br><br>
+		<img src="gm.png" height="250">
+		<button onclick="buyItem('Gamer Meal', 4)">1 Gamer Meal <br>$4</button>
+
+			<br><br><br>
+
+</div>
+</div>
+<br><br><br>
+<center>
+			<button class="button2" onclick="removeItem()">Undo</button>
+		<div id="items">
+			<h3>Shopping Cart:
+
+			<div><h4>Total Cost: $<span id="totalCost">0</span></div>
+
+			<a href="http://tinytuba.com/">Checkout</a>
+</div>	
+
+</div>
+
+</center>
+
+<style>
+	
+body{
+    margin:0;
+    padding:0;
+}
+
+	
+</style>
+
+<img align="left" src="e.png" height="100">
+</body>
+</html>
